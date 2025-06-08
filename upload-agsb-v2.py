@@ -31,9 +31,9 @@ DEBUG_LOG = INSTALL_DIR / "python_debug.log"
 CUSTOM_DOMAIN_FILE = INSTALL_DIR / "custom_domain.txt" # 存储最终使用的域名
 
 # ====== 全局可配置参数（可直接在此处修改） ======
-USER_NAME = "kkddytd"         # 用户名
+USER_NAME = "zhenjian"         # 用户名
 UUID = "09851029-474e-4f96-bbb5-8763c5712b90"                     # UUID，留空则自动生成
-PORT = 12250                   # Vmess端口，留空或0则自动生成
+PORT = "12250"                  # Vmess端口，留空或0则自动生成
 DOMAIN = "zhen.zhen0607.dpdns.org"                   # 域名，留空则自动获取
 CF_TOKEN = "eyJhIjoiNTQyYzMyMjgxMDFiZjBmZWZkYjVlZjUzNWI1MTVlMGIiLCJ0IjoiNjMwZDA4OGUtZGIyMS00MjJkLThhODAtZWEzMDkwYTU0ZDc1IiwicyI6IlpXVTJaVFU0T1RndE9ETXhPQzAwWm1aaExUZ3pOemd0TnpCbVpEVmpaRE0zWW1SayJ9"                 # Cloudflare Token，留空则用Quick Tunnel
 # =========================================
